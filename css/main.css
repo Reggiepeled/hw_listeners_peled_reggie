@@ -6,4 +6,34 @@ form {
     width: 80%;
     max-width: 800px;
     margin: auto;
+    margin-top: 5%;
+}
+
+label {
+    display: block;
+    padding: 3%;
+    color: white;
+}
+
+input {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+p {
+    padding: 3% 3% 0 3%;
+    color: white;
+}
+
+textarea {
+    display: block;
+    margin: 0 0 3% 3%;
+    width: 95%;
+    max-width: 400px;
+}
+
+input[type="submit"] {
+    margin: 7% 0 0 3%;
+    width: 100px;
 }
