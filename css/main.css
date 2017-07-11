@@ -19,10 +19,10 @@ main {
 }
 
 h1 {
-    background-color: hsla(360, 100%, 100%, 0.5);
     font-family: 'Eagle Lake';
     color: #b30000;
     margin-bottom: 2rem;
+    max-width: 230px;
 }
 
 img {
