@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #dcdcdc;
+    font-family: 'Architects Daughter';
+    color: #000033;
+    padding: 3%;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Eagle Lake';
+    color: #b30000;
+    margin-bottom: 2rem;
+}
