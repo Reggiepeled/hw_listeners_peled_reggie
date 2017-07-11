@@ -17,3 +17,20 @@ h1 {
     color: #b30000;
     margin-bottom: 2rem;
 }
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+figure {
+    width: 70%;
+    max-width: 370px;
+    padding: 2rem;
+    margin: auto;
+}
+
+figcaption {
+    font-size: small;
+    text-align: center;
+}
