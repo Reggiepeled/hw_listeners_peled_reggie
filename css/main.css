@@ -34,3 +34,10 @@ figcaption {
     font-size: small;
     text-align: center;
 }
+
+@media (min-width: 1000px) {
+    figure {
+        width: 50%;
+        float: left;
+    }
+}
