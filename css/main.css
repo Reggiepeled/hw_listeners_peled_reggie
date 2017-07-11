@@ -42,6 +42,15 @@ figcaption {
     text-align: center;
 }
 
+section {
+    text-align: center;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #000033;
+}
+
 @media (min-width: 1000px) {
     figure {
         width: 50%;
