@@ -2,6 +2,11 @@ body {
     background-color: teal;
 }
 
+.container {
+    width: 100%;
+    margin: auto;
+}
+
 form {
     width: 80%;
     max-width: 430px;
