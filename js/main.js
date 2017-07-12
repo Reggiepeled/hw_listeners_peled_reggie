@@ -8,12 +8,11 @@ function countClicks() {
 var theTarget = document.getElementById('heading');
 
 //define the listener function
-function addParagraph(eventInfo) {
+function addParagraph() {
     countClicks();
     var newP = document.createElement('p');
-    newP.innerHTML = '<p>This is click number ' + count + '</p>';
+    newP.innerHTML = 'This is click number ' + count;
     document.body.appendChild(newP);
-    console.log(eventInfo);
 }
 
 theTarget.addEventListener('click', addParagraph);
