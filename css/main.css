@@ -51,6 +51,11 @@ select {
     border: 1px solid #000033;
 }
 
+section img {
+    display: block;
+    max-width: 100px;
+}
+
 @media (min-width: 1000px) {
     figure {
         width: 50%;
