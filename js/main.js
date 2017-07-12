@@ -1,4 +1,4 @@
-var submission = document.getElementById('submit');
+var submission = document.getElementById('contactme');
 
 function writeToScreen(eventInfo) {
     var first = document.getElementById('firstname').value;
@@ -13,4 +13,4 @@ function writeToScreen(eventInfo) {
     console.log('The email is: ' + email);
     console.log('The message is: ' + message);
 }
-submission.addEventListener('click', writeToScreen);
+submission.addEventListener('submit', writeToScreen);
