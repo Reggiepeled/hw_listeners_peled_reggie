@@ -31,3 +31,25 @@ function addPharagraph() {
 }
 
 heading.addEventListener('mouseover', addPharagraph);
+
+//-------------------------------------------------------------
+
+//display image when a selection is made
+
+var answer = document.getElementById('question');
+
+function addImage(imgURL) {
+    var newImage = document.createElement('img');
+    newImage.src = imgURL;
+    answer.after(newImage);
+}
+
+function displayFace(eventInfo) {
+    if (eventInfo.target.value === 'yes') {
+        addImage('img/happy.png');
+    } else if (eventInfo.target.value === 'no') {
+        addImage('img/angry.png');
+    }
+}
+
+answer.addEventListener('change', displayFace);
